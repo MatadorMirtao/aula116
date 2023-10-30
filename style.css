@@ -1,0 +1,34 @@
+  h3
+  {
+   
+   font-family: cursive;
+    font-size: 25px !important;
+  }
+.btn-success:hover
+{
+  font-family: monospace;
+	background-color: red;
+}
+  canvas {
+	  animation-name: example;
+	  animation-duration: 4s;
+	  animation-iteration-count: infinite;
+  }
+
+
+
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px yellow;}
+
+}
+footer{
+  position:fixed;
+  background-color: green;
+  bottom: 0;
+  width: 100%;
+  font-size: medium;
+  text-align: center;
+  color:white
+}
